@@ -1,0 +1,72 @@
+# KiCad backup and autosave files
+*.bak
+*.bck
+*-backups/
+*.kicad_pcb-bak
+*.sch-bak
+*_autosave-*
+
+# KiCad project lock files
+*.lck
+
+# KiCad footprint cache (regenerated from libraries)
+fp-info-cache
+
+# KiCad netlist (intermediate build artifact)
+*.net
+
+# KiCad ERC/DRC reports
+*.rpt
+
+# Fabrication outputs (generated, not source)
+gerbers/
+fab/
+*.gbr
+*.drl
+*.dxf
+*.svg
+*.pdf
+*.pos
+*.csv
+*.xml
+*.xyrs
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor swap files
+*~
+*.swp
+*.swo
+
+# PyAutoRoute generated outputs (placement, routing, previews, logs, snapshots)
+*_placed.kicad_pcb
+*_placed.png
+*_routed.kicad_pcb
+*_routed.png
+*_routed.log
+*_autorouted.kicad_pcb
+*_autorouted.kicad_prl
+*_autorouted.kicad_pro
+*_autorouted_preview.png
+*_autorouted.log
+*_placed_routed.kicad_pcb
+*_placed_routed.kicad_prl
+*_placed_routed.kicad_pro
+snapshots/
+.history/
+*.log
+*.kicad_prl
+*.kicad_pcb.bak_*
+*.ini
+
+# kicad-happy analysis outputs (keep design-review.md)
+datasheets/
+analysis/
+sim/
+!design-review.md
