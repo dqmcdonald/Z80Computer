@@ -4764,18 +4764,6 @@
 		(layer "Edge.Cuts")
 		(uuid "2d4f2242-5f3f-4fd1-bc2b-58da2d8ce71f")
 	)
-	(gr_text "Clock Module v1.0\nD. Q. McDonald June 2026"
-		(at 25 43.5 0)
-		(layer "F.SilkS")
-		(uuid "bfc179d6-e7a0-46b3-a358-db7433698dac")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "5V"
 		(at 25.5 58.5 0)
 		(layer "F.SilkS")
@@ -4824,6 +4812,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Clock Module v1.0\nD. Q. McDonald June 2026"
+		(locked yes)
+		(at 31.35 42.95 0)
+		(layer "F.SilkS")
+		(uuid "bfc179d6-e7a0-46b3-a358-db7433698dac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Push for Clock"
 		(at 50.5 83 0)
 		(layer "F.SilkS")
@@ -4837,7 +4838,7 @@
 		)
 	)
 	(gr_text "4 MHz"
-		(at 32 61.64357 90)
+		(at 31.85 60.95 90)
 		(layer "F.SilkS")
 		(uuid "a9db3156-8225-4948-a113-832847b8b637")
 		(effects
@@ -4849,7 +4850,7 @@
 		)
 	)
 	(gr_text "555"
-		(at 34.5 61.64357 90)
+		(at 34.5 60.4 90)
 		(layer "F.SilkS")
 		(uuid "95f93ed6-9786-4613-844a-a1beaf1cb139")
 		(effects
@@ -4861,7 +4862,7 @@
 		)
 	)
 	(gr_text "Manual"
-		(at 37 61.64357 90)
+		(at 36.9 60.9 90)
 		(layer "F.SilkS")
 		(uuid "a8535473-ba2e-42c9-a6f1-e67051ef452e")
 		(effects
@@ -7067,6 +7068,16 @@
 	(group ""
 		(uuid "6e429268-5a3b-4fe4-beab-24f9ed2bfa4b")
 		(members "092dcc72-f237-4a72-a7fb-7c32a4636ad9" "880b5304-2696-4e42-a062-0d9da8f0376e")
+	)
+	(group ""
+		(uuid "46279346-58a7-4613-8fa2-e4ba411b826b")
+		(members "6f1c253a-e854-4c2c-af50-853ed4f20d0a" "95f93ed6-9786-4613-844a-a1beaf1cb139"
+			"a8535473-ba2e-42c9-a6f1-e67051ef452e" "a9db3156-8225-4948-a113-832847b8b637"
+		)
+	)
+	(group ""
+		(uuid "e7f57130-fae8-4e85-9441-0a271a48aec6")
+		(members "9e396f3c-85a1-4f3f-8ee3-5d93ad416beb" "e4a68269-b6d2-4ff8-ac0e-1c299bcd73cb")
 	)
 	(embedded_fonts no)
 )
